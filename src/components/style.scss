@@ -1,0 +1,16 @@
+.app-list-item.important .cross{
+    
+    animation: crossy 1.5s ease 0.3s 1  forwards;
+}
+
+@keyframes crossy {
+    0%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
